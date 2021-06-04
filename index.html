@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Script</title>
+    <style>
+        h1 {
+            padding-top: 15%;
+            font-size: 60px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>JavaScript</h1>
+        <script>
+            let numero = prompt('Digite um número: ');
+            let dualidade = numero % 2 == 0 ? 'Par' : 'Impar';
+
+            if (numero > 0) {
+                alert(numero + ' é um número positivo e ' + dualidade);
+            } else if (numero == null) {
+                alert('Valor incorreto...');
+            } else if (numero == 0) {
+                alert(numero + ' é um número neutro');
+            } else {
+                alert(numero + ' é um número e negativo e ' + dualidade);
+            }
+        </script>
+    </main>
+</body>
+</html>
